@@ -1,0 +1,15 @@
+1: Delete your existing travelGuidanceSystem folder completely in www diroctory and place this new folder there
+
+2: Open your phpmyadmnin in browser & delete your existing database travelGuidanceSystem & create new database travelGuidanceSystem and  Import databasebackup.sql located in travelGuidanceSystem
+
+3: Open databaseConnnection.php file and update user name and password according your localhost I had used root as user name and password : 12345
+
+
+4: Open file mailFunction.php and search for admin email and replace travelguidancesystem@gmail.com by email id on which you want to send email.
+
+5: now open url http://localhost/travelGuidanceSystem
+
+6: check login and signup option
+
+7: for every successfull signup a mail be send to user who signed up as well as admin email too.
+
